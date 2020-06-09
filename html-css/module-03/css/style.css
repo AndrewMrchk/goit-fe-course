@@ -1,29 +1,64 @@
-header {
-    padding-top: 30px;
-    padding-left: 30px  ;
+html {
+  box-sizing: border-box;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
-main {
-    padding-left: 150px;
-    padding-right: 150px;
+.container {
+  width: 951px;
+  margin: 0 auto;
 }
 
 .item-subtitle {
-    color: grey;
-    background-blend-mode: lighten;
+  color: grey;
 }
-.item-navigation:hover{
-   color:red;
+
+.item-navigation:hover,
+.item-navigation:focus {
+  color: #f8091f;
 }
+
+.item-navigation-list {
+  display: "inline-block";
+}
+
+.item-navigation-list {
+  display: "inline-block";
+  text-align: center;
+  position: relative;
+}
+
 .item-navigation {
-    font-size: 14px;
-    font-family: "PlayfairDisplay";
-    hover: color: rgb( 98, 98, 98 );
-    text-transform: uppercase;
-    line-height: 1.714;
-    text-align: center;
-    position: absolute;
-   
-  }
-  
+  font-size: 18px;
+  font-family: "PlayfairDisplay";
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  position: absolute;
+  width: 50px;
+}
+
+.item-list-content {
+  width: 420px;
+}
+
+.item-list {
+  width: 420px;
+}
+
+button {
+  position: relative;
+}
+.button {
+  text-align: center;
+  margin-top: 58px;
+  margin-bottom: 70px;
+}
+
+ul {
+  list-style-type: none;
+}
