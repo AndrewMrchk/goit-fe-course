@@ -1,32 +1,28 @@
-header {
-    padding-top: 30px;
-    padding-left: 30px  ;
+html {
+  box-sizing: border-box;
 }
 
-ul {
-    display: inline-block;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-
-main {
-    padding: 0;150px;
+.container {
+  width: 951px;
+  margin: 0 auto;
 }
 
-.item-navigation {
-    list-style-type: "none";
-
-.item-box {
-
-    }
-
+.navigation-list {
+  display: "inline-block";
 }
-.item-subtitle {
-    color: grey;
-    background-blend-mode: "lighten";
+
+.item-navigation-list {
+  display: "inline-block";
+  text-align: center;
+  position: relative;
 }
-.item-navigation:hover{
-     color: rgb( 255, 98, 98 );
-}
+
 .item-navigation {
     font-size: 14px;
     font-family: "PlayfairDisplay";
@@ -41,11 +37,7 @@ main {
     }
 
 
-  button {
-     
-  }
-
-  .button {
+   .button {
     margin-top: "45px";
     margin-bottom: "60px";
     position: "relative";
