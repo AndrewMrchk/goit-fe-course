@@ -13,16 +13,7 @@ html {
   margin: 0 auto;
 }
 
-.item-subtitle {
-  color: grey;
-}
-
-.item-navigation:hover,
-.item-navigation:focus {
-  color: #f8091f;
-}
-
-.item-navigation-list {
+.navigation-list {
   display: "inline-block";
 }
 
@@ -42,11 +33,20 @@ html {
   width: 50px;
 }
 
-.item-list-content {
-  width: 420px;
+.item-subtitle {
+  color: grey;
+}
+
+.item-navigation:hover,
+.item-navigation:focus {
+  color: #f8091f;
 }
 
 .item-list {
+  width: 420px;
+}
+
+.item-list-content {
   width: 420px;
 }
 
