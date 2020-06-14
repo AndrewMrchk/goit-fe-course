@@ -8,39 +8,60 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0px;
+}
 .container {
-  width: 951px;
-  margin: 0 auto;
+  width: 901px;
+  margin: 0px auto;
+}
+
+.navigation-menu {
+  list-style-type: none;
+  margin: 0px;
+  padding: 77px 0px;
 }
 
 .navigation-list {
-  display: "inline-block";
-}
-
-.item-navigation-list {
-  display: "inline-block";
-  text-align: center;
-  position: relative;
+  margin: 0px;
+  padding: 0px;
 }
 
 .item-navigation {
-    font-size: 14px;
-    font-family: "PlayfairDisplay";
-    text-transform: uppercase;
-    line-height: 1.714;
-    text-align: center;
-    position: absolute;
-  }
-  
-   p {
-       max-width: "420px";
-    }
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+}
+.item-navigation li {
+  display: inline-block;
+}
 
+.list-articles {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
 
-   .button {
-    margin-top: "45px";
-    margin-bottom: "60px";
-    position: "relative";
-    text-align: "center";  
-    border-radius: "5px";
-  }
+.item-article {
+  display: inline-block;
+}
+
+.article {
+  display: inline-block;
+  max-width: 421px;
+}
+
+.item-image {
+  width: 100%;
+}
+
+.item-subtitle {}
+
+.button {
+  margin-top: "45px";
+  margin-bottom: "60px";
+  position: "relative";
+  text-align: "center";  
+  border-radius: "5px";
+}
