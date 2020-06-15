@@ -74,6 +74,10 @@ margin-right: 100px;
 margin-right: 58px;
 }
 
+.list-articles li:nth-last-child(-n + 2) {
+  margin-bottom: 0px;
+}
+
 .article {
   max-width: 421px;
 }
@@ -85,10 +89,13 @@ margin-right: 58px;
 .item-subtitle {
   color: gray;
   font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 31px
 }
 
 .item-title {
   font-size: 30px;
+  margin-bottom: 38px;
 }
 
 p {
@@ -100,5 +107,11 @@ p {
   margin-top: 60px;
   margin-bottom: 70px;
   position: relative;
-  text-align: center;  
+  text-align: center;
+}
+
+button {
+  padding: 22px 33px;
+  font-size: 20px;
+  line-height: 24px;
 }
