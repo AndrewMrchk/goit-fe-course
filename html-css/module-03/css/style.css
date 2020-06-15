@@ -11,9 +11,11 @@ html {
 body {
   margin: 0px;
 }
+
 .container {
   width: 901px;
   margin: 0px auto;
+  color: #626262;
 }
 
 .navigation-menu {
@@ -38,20 +40,15 @@ margin-right: 100px;
 }
 
 .item-navigation {
-  /* padding: 0px 50px; */
   text-transform: uppercase;
   text-decoration: none;
   font-size: 14px;
   position: relative;
 }
-/* 
-.site-navigation li:first-child {
-  padding-left: 0px;
-}
 
-.site-navigation li:last-child {
-  padding-right: 0px;
-} */
+.item-navigation {
+  color: #626262;
+}
 
 .item-navigation:hover,
 .item-navigation:focus {
