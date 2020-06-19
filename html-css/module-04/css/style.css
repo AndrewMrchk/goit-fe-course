@@ -1,30 +1,69 @@
-.title-item {
-    font-size: 14px;
-    font-family: "OpenSans";
-    color: rgb( 26, 188, 156 );
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 0.786;
-    text-align: center;
-    position: absolute;
-    left: 1204.94px;
-    top: 302.041px;
-    width: 467px;
-    height: 10px;
-    z-index: 118;
-  }
+html {
+box-sizing: border-box;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  width: 1110px;
+  margin: 0px auto;
+  }
+  
+.navigation-menu {
+  height: 156px;
+}
+
+.logotype {
+  display: block;
+  float: left;
+  padding-top: 36px;
+  font-size: 30px;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  text-decoration: none;
+  text-decoration-color: #000000;
+}
+
+.logotype::first-letter{
+  color: rgb( 26, 188, 156 );
+}
 
   .navigation-menu li {
     list-style: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    float: right;
+    margin-right: 32px;
   }
 
-.logotype a {
-        font-size: 30px;
-        font-family: "Roboto";
-        color: rgb( 26, 188, 156 );
-        text-transform: uppercase;
-        line-height: 1.067;
-        width: 78px;
-        height: 21px;
-      }
+  .navigation-list {
+    display: block;
+    margin: 0px;
+    padding-top: 42px;
+  }
+.navigation-list-item {
+  text-decoration: none;
+  text-decoration-color: #000000;
+  }
+
+  .navigation-list-item:hover,
+  .navigation-list-item:focus {
+    color: rgb( 26, 188, 156 );
+  }
+.title-item {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb( 26, 188, 156 );
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative; 
+}
