@@ -19,7 +19,12 @@ box-sizing: border-box;
   }
   
 .navigation-menu {
-  height: 156px;
+  height: 100%;
+  margin-bottom: 90px;
+}
+
+.logotype-box {
+  display: inline-block;
 }
 
 .logotype {
@@ -27,38 +32,46 @@ box-sizing: border-box;
   float: left;
   padding-top: 36px;
   font-size: 30px;
-  font-family: "Roboto";
-  text-transform: uppercase;
   text-decoration: none;
-  text-decoration-color: #000000;
+  font-family: "Roboto, sans-serif";
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #000000
 }
 
 .logotype::first-letter{
   color: rgb( 26, 188, 156 );
 }
 
-  .navigation-menu li {
-    list-style: none;
-    font-size: 12px;
-    text-transform: uppercase;
-    float: right;
-    margin-right: 32px;
+  .navigation-list li {
+    
+  list-style: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  float: left;
+  margin-left: 32px;
+  padding-top: 42px;
   }
 
   .navigation-list {
-    display: block;
+    display: inline-block;
+    float: right;
     margin: 0px;
-    padding-top: 42px;
+    padding: 0px;
+    color: #000000;
   }
+
 .navigation-list-item {
   text-decoration: none;
-  text-decoration-color: #000000;
+  color: #000000;
   }
 
   .navigation-list-item:hover,
   .navigation-list-item:focus {
     color: rgb( 26, 188, 156 );
   }
+
 .title-item {
   font-size: 14px;
   font-family: "OpenSans";
