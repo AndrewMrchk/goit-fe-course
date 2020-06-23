@@ -13,10 +13,11 @@ box-sizing: border-box;
   display: table;
   clear: both;
 }
+
 .container {
   width: 1110px;
   margin: 0px auto;
-  }
+}
   
 .navigation-menu {
   height: 100%;
@@ -31,6 +32,7 @@ box-sizing: border-box;
   display: block;
   float: left;
   padding-top: 36px;
+  font-family: "Roboto";
   font-size: 30px;
   text-decoration: none;
   font-family: "Roboto, sans-serif";
@@ -43,40 +45,70 @@ box-sizing: border-box;
   color: rgb( 26, 188, 156 );
 }
 
-  .navigation-list li {
-    
+.navigation-list li {
   list-style: none;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
   float: left;
-  margin-left: 32px;
   padding-top: 42px;
-  }
+}
 
-  .navigation-list {
-    display: inline-block;
-    float: right;
-    margin: 0px;
-    padding: 0px;
-    color: #000000;
-  }
+.navigation-list {
+  display: inline-block;
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  color: #000000;
+}
+
+.navigation-list li:not(:first-child) {
+  margin-left: 32px;
+}
 
 .navigation-list-item {
   text-decoration: none;
   color: #000000;
-  }
+}
 
-  .navigation-list-item:hover,
-  .navigation-list-item:focus {
-    color: rgb( 26, 188, 156 );
-  }
-
-.title-item {
-  font-size: 14px;
-  font-family: "OpenSans";
+.navigation-list-item:hover,
+.navigation-list-item:focus {
   color: rgb( 26, 188, 156 );
+}
+
+.tittle {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  line-height: 32px;
+  font-size: 48px;
   font-weight: bold;
+  font-family: "OpenSans";
+  color: rgb( 51, 51, 51 );
   text-transform: uppercase;
-  position: relative; 
+  text-align: center;
+}
+
+.product-menu img {
+  display: block;
+}
+
+.product-list {
+  margin: 0px;
+  padding: 0px;
+}
+
+.list-item-product {
+  list-style: none;
+}
+
+.product-name {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  text-decoration: #ffffff;
+  text-transform: uppercase;
+  background-color: gray;
 }
