@@ -71,7 +71,6 @@ html {
 }
 
 .tittle {
-  display: block;
   margin: 0px;
   padding: 0px;
   padding-top: 106px;
@@ -97,6 +96,10 @@ html {
 .item-product {
   float: left;
   width: 255px;
+}
+
+.item-product h4:hover {
+  background-color: rgb(26, 188, 156) ;
 }
 
 .product-list li:nth-child(-n + 4) {
@@ -148,3 +151,41 @@ html {
 .last-news-list li:not(:last-child) {
   margin-right: 30px;
 }
+
+.subtittle {
+  display: block;
+  margin: 0;
+  padding: 12px 0px;
+  font-family: 'Times New Roman', Times, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #555252;
+}
+
+.news-text {
+margin: 0;
+padding: 0;
+font-size: 14px;
+line-height: 26px;
+font-weight: 400;
+color: #555252;
+}
+
+.link-read-more {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  width: 160px;
+  height: 50px;
+  margin-top: 14px;
+  padding-top: 18px;
+  border-radius: 5px;
+  font-family: Open+serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: rgb(26, 188, 156);
+  text-align: center;
+}
+
