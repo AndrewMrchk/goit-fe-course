@@ -73,7 +73,7 @@ html {
 .tittle {
   margin: 0px;
   padding: 0px;
-  padding-top: 106px;
+  padding: 106px 0px 34px 0px;
   line-height: 32px;
   font-size: 48px;
   font-weight: bold;
@@ -83,12 +83,21 @@ html {
   text-align: center;
 }
 
-.product-menu img {
-  display: block;
+.product-menu ul::before {
+    display: block;
+    margin: 0px auto 92px;
+    width: 164px;
+    height: 8px;
+    content: '' ;
+    background-color: rgb(26, 188, 156);
 }
 
+/*  {
+  margin: 0 0 34px 0;
+} */
+
 .product-list {
-  margin: 0;
+  margin: 0px;
   padding: 0px;
   list-style: none;
 }
@@ -98,8 +107,12 @@ html {
   width: 255px;
 }
 
-.item-product h4:hover {
+.item-product:hover .product-name {
   background-color: rgb(26, 188, 156) ;
+}
+
+.item-product:hover .price {
+  background-color: rgb(26, 188, 156, 50%) ;
 }
 
 .product-list li:nth-child(-n + 4) {
@@ -132,15 +145,23 @@ html {
   width: 20%;
   color: #ffffff;
   background-color: gray;
-  ;
 }
 
-.last-news-list {
+.latest-news ul::before {
+  display: block;
+  margin: 0px auto 92px;
+  width: 164px;
+  height: 8px;
+  content: '' ;
+  background-color: rgb(26, 188, 156);
+}
+
+.latest-news-list {
   margin: 0px;
   padding: 0px;
 }
 
-.last-news-list li {
+.latest-news-list li {
   width: 350px;
   margin: 0px;
   padding: 0px;
@@ -148,7 +169,7 @@ html {
   float: left;
 }
 
-.last-news-list li:not(:last-child) {
+.latest-news-list li:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -163,9 +184,21 @@ html {
   color: #555252;
 }
 
+.latest-news-list p::before {
+  display: block;
+  margin-bottom: 26px;
+  padding: 0px;
+  width: 136px;
+  text-align: left;
+  height: 4px;
+  content: '' ;
+  background-color: rgb(26, 188, 156);
+}
+
 .news-text {
 margin: 0;
 padding: 0;
+font-family: open, sans-serif;
 font-size: 14px;
 line-height: 26px;
 font-weight: 400;
@@ -178,7 +211,7 @@ color: #555252;
   text-align: center;
   width: 160px;
   height: 50px;
-  margin-top: 14px;
+  margin: 14px 0px 80px 0px;
   padding-top: 18px;
   border-radius: 5px;
   font-family: Open+serif;
